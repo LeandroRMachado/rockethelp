@@ -9,7 +9,7 @@ import {
 
 import { THEME } from "./src/styles/theme";
 import { SignIn } from "./src/screens/SignIn";
-import {Loading} from './src/components/Loading';
+import { Loading } from "./src/components/Loading";
 
 export function App() {
   const [fontsLoaded] = useFonts({
