@@ -1,10 +1,13 @@
 import React from "react";
-import {View, Text} from 'react-native';
+
+import { NativeBaseProvider } from "native-base";
+
+import { SignIn } from "./src/screens/SignIn";
 
 export function App() {
   return (
-    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-      <Text>Hello World</Text>
-    </View>
+    <NativeBaseProvider>
+      <SignIn />
+    </NativeBaseProvider>
   );
 }
